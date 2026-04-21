@@ -30,6 +30,11 @@ try {
     './tokens.css': './tokens.css',
   };
 
+  packageJson.name = '@group24ag/ng-diagram';
+  packageJson.publishConfig = {
+    registry: 'https://npm.pkg.github.com',
+  };
+
   fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2) + '\n');
   console.log(`✅ Fixed package.json exports`);
 } catch (error) {
