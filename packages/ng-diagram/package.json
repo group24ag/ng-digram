@@ -1,6 +1,6 @@
 {
-  "name": "ng-diagram",
-  "version": "0.0.0",
+  "name": "@group24ag/ng-diagram",
+  "version": "1.2.1",
   "type": "module",
   "exports": {
     ".": {
@@ -10,6 +10,9 @@
     "./styles.css": "./dist/ng-diagram/styles.css",
     "./primitives.css": "./dist/ng-diagram/primitives.css",
     "./tokens.css": "./dist/ng-diagram/tokens.css"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "ng": "ng",
